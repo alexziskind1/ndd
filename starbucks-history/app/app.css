@@ -1,0 +1,40 @@
+Page {
+  background-color:#322f2b;
+}
+.header {
+  background-color: #322f2b;
+}
+
+.slide-1{
+  background-color: #f4f3ea;
+}
+ 
+.slide-2{
+  background-color:#2e2a27;
+}
+
+.btn-inactive {
+  color: #626060;
+  font-size: 20;
+}
+
+.btn-active {
+  color: #ffffff;
+  font-size: 20;
+}
+
+.title{
+  text-align: center;
+  width: 100%;
+  font-size: 35;
+  margin-top: 35;
+  color: #fff;
+ 
+}
+
+
+.underline {
+  background-color: #ffffff;;
+  height: 4;
+  width: 50;
+}

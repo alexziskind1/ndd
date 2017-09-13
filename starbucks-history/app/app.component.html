@@ -1,0 +1,20 @@
+<StackLayout>
+
+    <GridLayout class="header" rows="auto,37,4" columns="*,*">
+        <Image row="0" src="~/images/header.png" colSpan="2"></Image>
+        <Button #btn1 text="History" row="1" col="0" (tap)="gotoSlide0($event)" class="btn-active"></Button>
+        <Button #btn2 text="Star Expiration" row="1" col="1" (tap)="gotoSlide1($event)" class="btn-inactive"></Button>
+        <AbsoluteLayout row="2" colSpan="2">
+            <Label #underline class="underline"></Label>
+        </AbsoluteLayout>
+    </GridLayout>
+
+    <slides #slides (changing)="onChanging($event)" (showSlide)="onShowSlide($event)">
+        <slide class="slide-1">
+            <Image src="~/images/page-history.png"></Image>
+        </slide>
+        <slide class="slide-2">
+            <Image src="~/images/page-expiration.png"></Image>
+        </slide>
+    </slides>
+</StackLayout>
