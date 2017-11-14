@@ -1,0 +1,11 @@
+<GridLayout class="page-wrapper" columns="*" rows="auto,*">
+
+    <GridLayout slide-out>
+        <Image src="~/images/page.png" (tap)="onShowTapped($event)" col="0"></Image>
+    </GridLayout>
+
+    <StackLayout slide-in class="slide" row="2">
+        <Image src="~/images/replies.png" (tap)="onHideTapped($event)"></Image>
+    </StackLayout>
+
+</GridLayout>
